@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY Calculator</title>
+        <link rel="stylesheet" href="calcultor.css">
+    </head>
+    <body>
+        <div class="calmain">
+        <div class="cal">
+        <input type="text" id="intp" onclick="">
+        </div>
+        <div class="cal1">
+        <button id="b9">9</button>
+        <button id="b8">8</button>
+        <button id="b7">7</button>
+        <button id="bdiv">%</button>
+</div>
+<div class="cal2">
+        <button id="b4">4</button>
+        <button id="b5">5</button>
+        <button id="b6">6</button>
+        <button id="b-">-</button>
+</div>
+<div class="cal3">
+        <button id="b1">1</button>
+        <button id="b2">2</button>
+        <button id="b3">3</button>
+        <button id="bx">x</button>
+</div>
+<div class="cal4">
+        <button id="b0">0</button>
+        <button id="bp">+</button>
+        <button id="bd">.</button>
+        <button id="be">=</button>
+</div>
+<div class="cal5">
+        <button id="bcl">cl</button>
+</div>
+</div>
+<script>
+    const input = document.getElementById('intp');
+    const buttons = [
+        { id: 'b0', value: '0' }, { id: 'b1', value: '1' }, { id: 'b2', value: '2' },
+        { id: 'b3', value: '3' }, { id: 'b4', value: '4' }, { id: 'b5', value: '5' },
+        { id: 'b6', value: '6' }, { id: 'b7', value: '7' }, { id: 'b8', value: '8' },
+        { id: 'b9', value: '9' }, { id: 'bp', value: '+' }, { id: 'b-', value: '-' },
+        { id: 'bx', value: '*' }, { id: 'bdiv', value: '/' }, { id: 'bd', value: '.' }
+    ];
+
+    for (let i = 0; i < buttons.length; i++) {
+        const btn = buttons[i];
+        document.getElementById(btn.id).onclick = function() {
+            input.value += btn.value;
+        };
+    }
+
+    document.getElementById('be').onclick = function() {
+        try {
+            input.value = eval(input.value);
+        } catch {
+            input.value = 'Error';
+        }
+    };
+
+    document.getElementById('bcl').onclick = function() {
+        input.value = '';
+    };
+</script>
+    </body>
+<html>

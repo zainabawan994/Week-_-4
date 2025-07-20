@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.calmain{
+    width: 25%;
+    height:320px ;
+    margin:200px;
+    background-color: black;
+}
+#intp{
+    border: none;
+    width: 97%;
+    height:50px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: brown;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.cal1{
+     width: 99%;
+     margin:5px;
+}
+#b9{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#b8{
+     width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#b7{
+   width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#bdiv{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;}
+.cal2{
+     width: 99%;
+     margin:5px;
+}
+#b4{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#b5{
+  width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#b6{
+     width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#b-{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+.cal3{
+     width: 99%;
+     margin:5px;
+}
+#b1{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;}
+
+#b2{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#b3{
+     width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#bx{
+     width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+.cal4{
+     width: 99%;
+     margin:5px;
+}
+#b0{
+   width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#bp{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#bd{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+
+#be{
+    width: 24%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
+.cal5{
+     width: 99%;
+     margin:6px;
+}
+#bcl{
+    width:95%;
+    height:40px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:6px;
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+}
