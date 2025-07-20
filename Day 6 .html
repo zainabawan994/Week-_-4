@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dropdown Example</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <select id="selecti">
+        <option value="">-- Select --</option>
+        <option value="hi">hi</option>
+        <option value="hello">hello</option>
+        <option value="sum">sum</option>
+    </select>
+
+    <p id="result">You selected: None</p>
+
+    <script>
+      let useselect=document.getElementById("selecti");
+      let resulti=document.getElementById("result");
+      useselect.addEventListener("change",function(){
+       let dropvalue=useselect.value;
+        if(dropvalue ===""){
+            resulti.innerHTML="you select none";
+        }
+        else{
+            resulti.innerHTML="you select haha : "+ dropvalue;
+        }
+            
+        }
+      
+    )
+    </script>
+</body>
+</html>
+
+<h2>Simple Counter App</h2>
+
+<p id="count">0</p>
+
+<button id="increase">+</button>
+<button id="decrease">–</button>
+<script>
+  // Get DOM elements
+  let countDisplay = document.getElementById("count");
+  let increaseBtn = document.getElementById("increase");
+  let decreaseBtn = document.getElementById("decrease");
+
+</script>
